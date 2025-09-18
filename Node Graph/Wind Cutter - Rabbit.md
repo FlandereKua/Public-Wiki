@@ -11,7 +11,7 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D25, add DEX modifier for slashing damage.
+    - **Attack**: Roll 1D12, add DEX modifier for slashing damage.
     - **Agility Boost**: +4 SPD and +4 DEX for 2 turns.
     - **Movement**: Moves user forward 2 tiles during attack.
     - **Resource Cost**: 6 MP

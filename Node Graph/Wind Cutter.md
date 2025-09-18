@@ -1,5 +1,5 @@
 ## Description
-A swift strike that cuts through air itself, propelling the user forward with supernatural speed.
+ A swift strike that cuts through air itself, propelling the user forward with supernatural speed.
 
 ## Quick Info
 | Property | Value                           |
@@ -11,7 +11,7 @@ A swift strike that cuts through air itself, propelling the user forward with su
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D24, add STR modifier for slashing damage
+    - **Attack**: Roll 1D12, add STR modifier for slashing damage
     - **Speed Boost**: +2 SPD for 3 turns
     - **Movement**: Moves user forward 2 tiles during attack
     - **Resource Cost**: 6 MP

@@ -1,5 +1,5 @@
 ## Description
- A devastating two-turn attack that requires careful preparation but delivers overwhelming force.
+A devastating two-turn attack that requires careful preparation but delivers overwhelming force. The warrior gathers their strength and focuses their intent before unleashing a mighty cleaving strike that can cut through multiple enemies.
 
 ## Quick Info
 | Property | Value                          |
@@ -12,7 +12,7 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - **Charging Attack**: Requires 2 turns - first turn to charge, second turn to attack.
-    - **Attack**: Roll 1D20, add STR modifier for slashing damage.
+    - **Attack**: Roll 1D12 for slashing damage.
     - **Accuracy Bonus**: Small bonus to attack accuracy due to careful preparation.
     - **Movement Restriction**: Cannot move during charging turn.
     - **Resource Cost**: 3 MP
