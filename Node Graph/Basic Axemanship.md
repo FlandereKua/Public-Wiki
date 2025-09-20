@@ -1,5 +1,5 @@
 ## Description
- Fundamental techniques for wielding axes in combat, providing improved accuracy and damage.
+ Fundamental techniques for wielding axes in combat.
 
 ## Quick Info
 | Property | Value                        |
@@ -12,7 +12,7 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - Unlocks basic axe combat maneuvers.
-    - **Weapon Bonus**: +1 to attack rolls and +1 to damage with axes.
+    - **Weapon Bonus**: +1 to damage with axes.
 
 ---
 

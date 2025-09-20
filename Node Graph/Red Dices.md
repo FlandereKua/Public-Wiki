@@ -1,35 +1,30 @@
 ## Description
- A swift slashing attack.
+ Risk and rewards go hand in hand, burning everything down.
 
 ## Quick Info
 | Property | Value                    |
 | -------- | ------------------------ |
-| **Tier** | 1 #Common                |
-| **Type** | #Active #Physical #Slash |
+| **Tier** | 2 #Uncommon              |
+| **Type** | #Passive #Gamble #Unique |
 
 ---
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D3, add STR modifier for slashing damage.
-    - **Resource Cost**: 1 MP
-- **Range:**
-```
-[o][x]
-```
-
+    - **Max Rolls**: Double strike on this attack.
+    - **Min Rolls**: -3 to STR for 1 turn.
 
 ---
 
 ## Acquisition
 ### Prerequisites
-- [[Life]]
+- [[Risky Maneuver]]
 
 ### Acquisition Method(s)
-- [x] **Combat:** Engage in combat and deal slashing DMG 5 times 
+- [ ] **Combat:** 
 - [ ] **Research:** 
 - [ ] **Activities:** 
 - [ ] **Dialogue & Exchange:** 
 - [ ] **Discovery:** 
-- [ ] **Other:** 
+- [x] **Other:** Be Cermia.
 

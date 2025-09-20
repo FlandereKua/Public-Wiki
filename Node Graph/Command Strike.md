@@ -11,10 +11,14 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D3, add WIS modifier for slashing damage.
+    - **Attack**: Roll 1D2, add WIS modifier for slashing damage.
     - **Party Effect**: One ally within range gains an immediate attack action.
     - **Resource Cost**: 3 MP.
     - **Limitation**: Participating ally could only use tier 1 attack.
+- **Range:**
+```
+[o][x]
+```
 
 ---
 

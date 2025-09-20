@@ -11,11 +11,15 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D3, add both STR and WIS modifier for slashing damage.
+    - **Attack**: Roll 1D4, add WIS modifier for slashing damage.
     - **Party Effect**: Command up to 2 allies to attack the same target simultaneously.
-    - **Attack Coordination**: Each participating ally gains +3 to their attack roll.
+    - **Attack Coordination**: Each participating ally gains +1 to their attack roll.
     - **Resource Cost**: 4 MP
     - **Limitation**: Participating ally could only use tier 1 attack.
+- **Range:**
+```
+[o][x]
+```
 
 ---
 

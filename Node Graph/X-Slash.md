@@ -13,6 +13,10 @@
 - **Effect Details:**
     - **Attack**: Strike twice in one turn - Roll 2D3, add STR modifier to each attack for slashing damage.
     - **Resource Cost**: 4 MP
+- **Range:**
+```
+[o][x]
+```
 
 ---
 

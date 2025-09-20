@@ -12,7 +12,7 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - Unlocks basic sword combat maneuvers.
-    - **Weapon Bonus**: +1 to attack rolls and +1 to damage with swords.
+    - **Weapon Bonus**: +1 to damage with swords.
 
 ---
 

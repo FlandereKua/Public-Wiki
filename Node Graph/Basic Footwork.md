@@ -1,5 +1,5 @@
 ## Description
- A basic understanding of movement, granting bonus speed and dexterity.
+ A basic understanding of movement.
 
 ## Quick Info
 | Property | Value                          |
@@ -11,8 +11,8 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Combat Bonus**: +1 DEX when in combat.
-    - **Mobility Bonus**: +1 SPD.
+    - **Combat Boost**: +1 DEX when in combat.
+    - **Speed Boost**: +1 SPD.
 
 ---
 

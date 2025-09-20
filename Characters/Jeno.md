@@ -1,5 +1,7 @@
 # Character Stat Sheet
 
+![[Jeno.png]]
+
 ---
 
 ## Character Information
@@ -10,50 +12,52 @@
 ---
 
 ## Core Attributes
-- **Strength (STR)**: `8`
+- **Strength (STR)**: `8` (+2)
 - **Dexterity (DEX)**: `7`
-- **Intelligence (INT)**: `6`
-- **Wisdom (WIS)**: `5`
-- **Charisma (CHA)**: `9`
+- **Intelligence (INT)**: `4`
+- **Wisdom (WIS)**: `5` (-1)
+- **Charisma (CHA)**: `6`
 - **Luck (LCK)**: `4`
-- **Faith (FTH)**: `0`
+- **Faith (FTH)**: `0`(-1)
 
 ---
 
 ## Combat Stats
-- **Health Points (HP)**: `65 / 65`
-- **Resource (Mana/Stamina)**: `35 / 35`
-- **Armor Class (AC)**: `5`
-- **SPD**: `+3`
+- **Health Points (HP)**: `30 / 30`
+- **Resource (Mana/Stamina)**: `15 / 15`
+- **Armor Class (AC)**: `3` (+1)
+- **Movement (MV)**: `+0` (+1)
+- **Speed (SPD)**: `+0`
 
 ---
 
 ## Nodes
 ### Active Nodes
 #### Tier 1 (4/4)
-- **[[Slash]]**: A swift axe strike that deals moderate damage and can potentially cause bleeding.
-- **[[Command Strike]]**: An authoritative axe attack that inspires nearby allies while striking a foe.
-- **[[Pierce]]**: A focused thrust attack that can penetrate armor more effectively than slashing attacks.
-- **[[Vicious Bite]]**: A brutal bite attack using his wolf heritage, dealing damage and potentially causing fear.
+>**[[Slash]]**
+>**[[Command Strike]]**
+>**[[Pierce]]**
+>**[[Vicious Bite]]**
 
 #### Tier 2 (1/4)
-- **[[Coordinated Assault]] (Tier 2)**: Commands up to 3 allies to attack the same target simultaneously, granting attack bonuses and potential bleeding damage.
+>**[[Coordinated Assault]]**
 
 ### Passive Nodes
-#### Tier 1 (3/6)
-- **[[Basic Axemanship]]**: Fundamental axe techniques providing accuracy and damage bonuses with axe weapons.
-- **[[Basic Leadership]]**: Natural authority that allows effective command of small groups and intimidation of enemies.
-- **[[Predator's Instinct]]**: Beast man bloodlust that grants +2 STR when enemies are bleeding, stacking up to +4 STR.
+#### Tier 1 (4/6)
+>**[[Basic Axemanship]]**
+>**[[Basic Leadership]]**
+>**[[Predator's Instinct]]**
+>**[[Swift]]**
 
 #### Tier 2 (1/4)
-- **[[Bandit Lord's Presence]] (Tier 2)**: An aura of menace and authority that reduces enemy morale while boosting ally confidence in combat.
+- **[[Bandit Lord's Presence]] (Tier 2)**
 
 ### Title Nodes
-- **[[Failed Knight]]**: A title representing his fallen status, granting knowledge of knightly tactics but also carrying shame that can be exploited.
+- **[[Failed Knight]]**
 
 ### Proficiencies
-- **Wilderness Survival**: Years of bandit life have taught him to survive in harsh conditions.
-- **Intimidation**: His reputation and presence make him naturally frightening to common folk.
+- **Wilderness Survival**: Small resistance against bleed.
+- **Intimidation**: Enemies deal -1 less damage for 2 turns at the start of the battle.
 
 ---
 
@@ -70,14 +74,13 @@
 - Dried Rations
 - Rope (50 feet)
 - Healing Potion (2)
+- Mana Potion (1)
 
 ---
 
 ## Background & Notes
 **Tag**: #Bandit #FailedKnight #WolfBeastman #Tier2Enemy
 
-**Story Presence**: A notorious bandit leader that terrorizes the surroundings of Harken Town. Once a promising knight candidate, Jeno was expelled from his order for acts of brutality and corruption. His fall from grace turned him bitter and ruthless, leading him to embrace a life of crime. His wolf heritage gives him enhanced senses and predatory instincts, making him a formidable opponent both in direct combat and as a tactical leader.
+**Story Presence**: A notorious bandit leader that terrorizes the surroundings of Harken Town. Once a promising knight candidate, Jeno was expelled from his order for acts of brutality and corruption.
 
-**Combat Tactics**: Jeno prefers to fight alongside his bandit underlings, using his Coordinated Assault to orchestrate devastating group attacks. He opens combat with intimidating howls and commands before closing in with his war axe. His Predator's Instinct makes him increasingly dangerous as enemies begin to bleed, growing stronger with each wounded foe. If outnumbered or outmatched, he relies on his pack coordination and tactical leadership to create escape opportunities.
-
-**Personality**: Bitter about his past failures, vindictive toward authority figures, but fiercely loyal to those who follow him. He sees his banditry as justified revenge against a society that rejected him.
+**Personality**: Bitter about his past failures, vindictive toward authority figures, but fiercely loyal to those who follow him.

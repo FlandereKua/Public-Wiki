@@ -10,7 +10,7 @@
 ---
 
 ## Core Attributes
-- **Strength (STR)**: `1`
+- **Strength (STR)**: `1` (+1)
 - **Dexterity (DEX)**: `3`
 - **Intelligence (INT)**: `3`
 - **Wisdom (WIS)**: `5`
@@ -22,9 +22,10 @@
 
 ## Combat Stats
 - **Health Points (HP)**: `7 / 7`
-- **Resource (Mana/Stamina)**: `15 / 15`
+- **Resource (Mana/Stamina)**: `15 / 15`(+3)
 - **Armor Class (AC)**: `1`
-- **SPD**: `+1`
+- **Movement (MV)**: `+0`
+- **Speed (SPD)**: `+0`
 
 ---
 
@@ -34,11 +35,10 @@
 > [[Pierce]] 
 
 ### Passive Nodes
-#### Tier 0 (1/1)
-> [[Life]]
 #### Tier 1 (2/10)
 > [[Basic Spearmanship]] 
 > [[Magical Aptitude]]
+
 ### Title Nodes
 
 
@@ -48,7 +48,7 @@
 
 ## Equipment
 ### Worn
-- **Weapon(s)**: Iron Spear (+1 DMG)
+- **Weapon(s)**: Iron Spear 
 - **Armor**: 
 - **Amulet/Ring**: 
 

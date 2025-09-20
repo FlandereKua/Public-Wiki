@@ -1,29 +1,28 @@
 ## Description
- The chosen Demigod Heir of Diche.
+ Lacking of the most basic quality of being a solider.
 
 ## Quick Info
 | Property | Value          |
 | -------- | -------------- |
-| **Tier** | Unique #Unique |
-| **Type** | #Passive #Demigod           |
+| **Tier** | 1 #Common      |
+| **Type** | #Title #Knight |
 
 ---
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attribute Boost**: +2 CHA.
-
+    - **Attribute Boost**: -1 WIS
 ---
 
 ## Acquisition
 ### Prerequisites
-
+- [[Life]]
 
 ### Acquisition Method(s)
 - [ ] **Combat:** 
 - [ ] **Research:** 
-- [ ] **Activities:** 
+- [x] **Activities:** Being expelled from the Empire's knight order.
 - [ ] **Dialogue & Exchange:** 
 - [ ] **Discovery:** 
-- [x] **Other:** Be Ras
+- [ ] **Other:** 
 

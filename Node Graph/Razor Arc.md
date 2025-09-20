@@ -11,9 +11,16 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attack**: Roll 1D7, add both STR and DEX modifiers for slashing damage.
-    - **Bleeding Effect**: Causes bleeding in struck targets (target loses small amount of HP each turn).
+    - **Attack**: Roll 1D5, add DEX modifiers for slashing damage.
+    - **Target**: AOE
+    - **Bleeding Effect**: May cause bleeding in struck targets (target loses small amount of HP each turn).
     - **Resource Cost**: 5 MP
+- **Range:**
+```
+   [x]
+[o][x]
+   [x]
+```
 
 ---
 

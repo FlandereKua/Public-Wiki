@@ -15,7 +15,7 @@
     - **Resource Cost**: 1 MP + 1 Projectile.
 - **Range:**
 ```
-[o][?][?][?][x]
+[o][x][x][x][x]
 ```
 
 ---

@@ -36,7 +36,7 @@ Arken Forest is a vast, old-growth woodland in the Eternal Empire's Northern Pro
 *   **Description**: A rare butterfly whose wings shimmer with faint, hypnotic light. They are skittish and difficult to approach.
 *   **Tier**: 1
 *   **Notable Nodes**:
-    *   [[Soothing Light]] (Tier 1)
+    *   [[Soothing Spark]] (Tier 1)
 
 ### Stout-Heart Deer
 *   **Description**: A large, majestic deer with a calm and stoic demeanor. They are not easily startled and can be observed from a respectful distance.

@@ -1,5 +1,5 @@
 ## Description
- Fundamental techniques for wielding dagger in combat, providing improved speed and damage.
+ Fundamental techniques for wielding dagger in combat.
 
 ## Quick Info
 | Property | Value                         |
@@ -12,8 +12,7 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - Unlocks basic dagger combat maneuvers.
-    - **Weapon Bonus**: +1 to attack rolls and +1 to damage with daggers.
-    - **Mobility Bonus**: +1 SPD.
+    - **Weapon Bonus**: +1 to damage with daggers.
 
 ---
 

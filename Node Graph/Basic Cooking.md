@@ -1,5 +1,5 @@
 ## Description
- Essential culinary skills that enhance the nutritional value and benefits of prepared meals.
+ Essential culinary skills.
 
 ## Quick Info
 | Property | Value                      |

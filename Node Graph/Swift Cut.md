@@ -14,6 +14,10 @@
     - **Attack**: Roll 1D3, add both STR and DEX modifiers for slashing damage.
     - **Speed Boost**: Gain +1 SPD for 1 turn after attacking.
     - **Resource Cost**: 2 MP
+- **Range:**
+```
+[o][x]
+```
 
 ---
 

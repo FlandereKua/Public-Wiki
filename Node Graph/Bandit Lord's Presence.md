@@ -1,10 +1,10 @@
 ## Description
-Natural charisma and tactical knowledge.
+ An aura of a notorious bandit lord.
 
 ## Quick Info
 | Property | Value                        |
 | -------- | ---------------------------- |
-| **Tier** | 1 #Common                    |
+| **Tier** | 2 #Uncommon                  |
 | **Type** | #Passive #Party #Mental      |
 
 ---
@@ -12,16 +12,17 @@ Natural charisma and tactical knowledge.
 ## Mechanics & Effects
 - **Effect Details:**
     - **Party Bonus**: +1 to attack rolls for nearby allies
-    - **Leadership Aura**: Inspires confidence in group members
+    - **Intimidation Bonus**: -1 to attack rolls for nearby enemies
+    - **Leadership Aura**: Small chance to resist fear for allies.
 
 ---
 
 ## Acquisition
 ### Prerequisites
-- [[Life]]
+- [[Basic Leadership]]
 
 ### Acquisition Method(s)
-- [x] **Combat:** Lead the team in 10 combats
+- [x] **Combat:** Defeat an entire bandit camps while being a leader.
 - [ ] **Research:** 
 - [ ] **Activities:** 
 - [ ] **Dialogue & Exchange:** 

@@ -1,29 +1,30 @@
 ## Description
- The chosen Demigod Heir of Diche.
+ At least you didn't fluke this basic courses.
 
 ## Quick Info
 | Property | Value          |
 | -------- | -------------- |
-| **Tier** | Unique #Unique |
-| **Type** | #Passive #Demigod           |
+| **Tier** | 1 #Common      |
+| **Type** | #Title #Knight |
 
 ---
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attribute Boost**: +2 CHA.
+    - **Attribute Boost**: +1 STR
+    - **Resource Boost**: +1 HP
 
 ---
 
 ## Acquisition
 ### Prerequisites
-
+- [[Life]]
 
 ### Acquisition Method(s)
 - [ ] **Combat:** 
 - [ ] **Research:** 
-- [ ] **Activities:** 
+- [x] **Activities:** Completed the empire knight training course.
 - [ ] **Dialogue & Exchange:** 
 - [ ] **Discovery:** 
-- [x] **Other:** Be Ras
+- [ ] **Other:** 
 

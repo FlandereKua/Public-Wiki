@@ -16,6 +16,10 @@ A devastating two-turn attack that requires careful preparation but delivers ove
     - **Accuracy Bonus**: Small bonus to attack accuracy due to careful preparation.
     - **Movement Restriction**: Cannot move during charging turn.
     - **Resource Cost**: 3 MP
+- **Range:**
+```
+[o][x]
+```
 
 ---
 

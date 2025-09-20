@@ -1,10 +1,10 @@
 ## Description
-A primal hunting instinct that surges when prey is wounded, temporarily enhancing physical prowess.
+A primal hunting instinct that surges when prey is wounded.
 
 ## Quick Info
-| Property | Value                            |
-| -------- | ---------------------------------|
 | **Tier** | 1 #Common                        |
+| -------- | -------------------------------- |
+| **Type** | #Passive #Physical #Beast #Bleed |
 | **Type** | #Passive #Physical #Beast #Bleed |
 
 ---

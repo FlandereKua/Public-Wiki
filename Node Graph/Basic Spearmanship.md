@@ -12,7 +12,7 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - Unlocks basic spear combat maneuvers.
-    - **Weapon Bonus**: +1 to attack rolls and +1 to damage with spears.
+    - **Weapon Bonus**: +1 to damage with spears.
 
 ---
 

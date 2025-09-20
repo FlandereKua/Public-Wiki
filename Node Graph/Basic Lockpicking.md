@@ -1,10 +1,10 @@
 ## Description
- A brief, flavourful quote or summary of the node.
+ Quickly open up any common chest.
 
 ## Quick Info
-| Property | Value                                               |
-| -------- | --------------------------------------------------- |
-| **Tier** | 1 #Common                                           |
+| Property | Value                          |
+| -------- | ------------------------------ |
+| **Tier** | 1 #Common                      |
 | **Type** | #Passive #Knowledge #Survival  |
 
 ---
@@ -12,8 +12,8 @@
 ## Mechanics & Effects
 - **Effect Details:**
     - **Lockpicking Ability**: Attempt to pick locks on chests and doors.
-    - **Skill Check**: Roll 1D10 + WIS modifier and 1D10 + DEX modifier.
-    - **Resource Cost**: 2 MP per attempt, maximum 2 attempts per lock.
+    - **Skill Check**: Roll 1D5, add both WIS and DEX modifier for success.
+    - **Resource Cost**: 2 MP, maximum 2 attempts per lock.
 
 ---
 

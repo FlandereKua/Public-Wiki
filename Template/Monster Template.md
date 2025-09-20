@@ -1,8 +1,8 @@
-# Character Stat Sheet
+# Monster Stat Sheet
 
 ---
 
-## Character Information
+## Monster Information
 - **Name**: 
 - **Race/Origin**: 
 - **Tier**: 
@@ -10,12 +10,12 @@
 ---
 
 ## Core Attributes
-- **Strength (STR)**: `3`
-- **Dexterity (DEX)**: `3`
-- **Intelligence (INT)**: `3`
-- **Wisdom (WIS)**: `3`
-- **Charisma (CHA)**: `3`
-- **Luck (LCK)**: `3`
+- **Strength (STR)**: `2`
+- **Dexterity (DEX)**: `2`
+- **Intelligence (INT)**: `0`
+- **Wisdom (WIS)**: `2`
+- **Charisma (CHA)**: `1`
+- **Luck (LCK)**: `1`
 - **Faith (FTH)**: `0`
 
 ---
@@ -33,9 +33,6 @@
 - **Node Name**: Description.
 
 ### Passive Nodes
-- **Node Name**: Description.
-
-### Title Nodes
 - **Node Name**: Description.
 
 ### Proficiencies 

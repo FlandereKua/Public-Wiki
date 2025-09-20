@@ -26,7 +26,8 @@
 - **Health Points (HP)**: `350 / 350`
 - **Resource (Mana/Stamina)**: `400 / 400`
 - **Armor Class (AC)**: `18`
-- **SPD**: `+15`
+- **Movement (MV)**: `+2`
+- **Speed (SPD)**: `+5`
 ---
 
 ## Nodes

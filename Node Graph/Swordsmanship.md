@@ -1,30 +1,30 @@
 ## Description
- Intermediate spear techniques that bridge basic training and advanced mastery.
+ Intermediate sword techniques that bridge basic training and advanced mastery.
 
 ## Quick Info
 | Property | Value                     |
 | -------- | ------------------------- |
 | **Tier** | 2 #Uncommon               |
-| **Type** | #Spear #Passive #Physical |
+| **Type** | #Sword #Passive #Physical |
 
 ---
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Weapon Bonus**: +3 to damage with spears.
-    - **Mastery Enhancement**: +1 STR/DEX if all prerequisite nodes are acquired.
+    - **Weapon Bonus**: +3 to damage with sword.
+    - **Mastery Enhancement**: +1 STR/SPD if all prerequisite nodes are acquired.
 
 ---
 
 ## Acquisition
 ### Prerequisites
 - [[Basic Spearmanship]]
-- [[Basic Footwork]]
+- [[Swift]]
 
 ### Acquisition Method(s)
-- [x] **Combat:** Using spears in 40 battles
+- [x] **Combat:** Using sword in 40 battles
 - [ ] **Research:** 
-- [x] **Activities:** Training under a Tier 3 Advanced Spearman
+- [x] **Activities:** Training under a Tier 3 Advanced Swordsman
 - [ ] **Dialogue & Exchange:** 
 - [ ] **Discovery:** 
 - [ ] **Other:** 

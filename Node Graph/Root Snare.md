@@ -14,6 +14,10 @@
     - **Crowd Control**: Roots a single target for 1 turn, preventing movement.
     - **Attack**: Roll 1D2, add INT modifier for magic damage.
     - **Resource Cost**: 2 MP
+- **Range:**
+```
+[o][x][x]
+```
 
 ---
 

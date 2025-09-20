@@ -11,8 +11,8 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Ranged Mastery**: +3 to damage when attacking from 3 tiles away.
-    - **Weapon Bonus**: +7 to damage with spears.
+    - **Ranged Mastery**: +2 to damage when attacking from 3 tiles away.
+    - **Weapon Bonus**: +5 to damage with spears.
     - **Critical Enhancement**: Small increase in critical hit range for piercing attacks (critical hits on max rolls).
 
 ---
