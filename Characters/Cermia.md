@@ -1,6 +1,6 @@
 # Character Stat Sheet
 
-![[Cermia.png]]
+![[Resources/Image/Character/Cermia.png]]
 
 ---
 
@@ -15,7 +15,7 @@
 - **Strength (STR)**: `7` (+1)
 - **Dexterity (DEX)**: `6`
 - **Intelligence (INT)**: `8` (+2)
-- **Wisdom (WIS)**: `3` (-1)
+- **Wisdom (WIS)**: `5` (-1)
 - **Charisma (CHA)**: `5`
 - **Luck (LCK)**: `2` (-2)
 - **Faith (FTH)**: `4`
@@ -25,7 +25,7 @@
 ## Combat Stats
 - **Health Points (HP)**: `26 / 26` (+1)
 - **Resource (Mana/Stamina)**: `20 / 20` (+3)
-- **Armor Class (AC)**: `6` (+1)
+- **Armor Class (AC)**: `5` (+1)
 - **Movement (MV)**: `+1`
 - **Speed (SPD)**: `+0`
 
@@ -37,12 +37,12 @@
 >**[[Slash]]**
 >**[[Deflect]]**
 >**[[Ember]]**
->**[[Pressing Advantage]]**: A small leap that moves the user 1 tile forward and grants +1 STR for 1 turn.
+>**[[Pressing Advantage]]**
 
 #### Tier 2 (3/4)
->**[[Fire Coating]]**: Coats weapon with flames, adding fire damage to next attack.
->**[[All-in]]**: A fire slash that ignores half of the target's AC, uses both INT and STR modifiers. *Cermia exclusive*
->**[[Flame Slash]]**: A fire slash that burns enemies, dealing damage with both INT and STR bonuses. *Cermia exclusive*
+>**[[Fire Coating]]**
+>**[[All-in]]**
+>**[[Flame Slash]]**
 
 ### Passive Nodes
 #### Tier 1 (6/10)
@@ -58,7 +58,7 @@
 >**[[Swordsmanship]]**
 
 ### Title Nodes
->**[[Gambling Addict]]**: Compulsive gambler who frequents gambling dens. Provides knowledge of underground networks.
+>**[[Gambling Addict]]**
 
 ### Proficiencies
 - **Fire Fire Fire**: Fire damage has a small chance to cause burn.
@@ -88,7 +88,7 @@
 ## Background & Notes
 **Tag**: #Knight #Gambler #Human #Tier2Enemy #Tier2Ally
 
-**Story Presence**: A fiercely competitive but horribly unlucky knight who struggles with gambling addiction and impulsive behavior. Despite her flaws, she's a skilled swordwoman and talented fire magician.
+**Description**: A fiercely competitive but horribly unlucky knight who struggles with gambling addiction and impulsive behavior. Despite her flaws, she's a skilled swordwoman and talented fire magician.
 
-**Personality**: Hot-headed and impulsive, prone to taking dangerous risks both in combat and at the gambling table. Her competitive nature drives her to prove herself, but her terrible luck often undermines her efforts. Lives off an allowance from her more responsible sister Carrot, who inherited the family fortune due to Cermia's reckless spending.
+**Personality**: Hot-headed and impulsive, prone to taking dangerous risks both in combat and at the gambling table. Lives off an allowance from her more responsible sister Carrot, who inherited the family fortune due to Cermia's reckless spending.
 

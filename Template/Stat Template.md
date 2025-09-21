@@ -30,16 +30,16 @@
 
 ## Nodes
 ### Active Nodes
-- **Node Name**: Description.
+
 
 ### Passive Nodes
-- **Node Name**: Description.
+
 
 ### Title Nodes
-- **Node Name**: Description.
+
 
 ### Proficiencies 
-- **Node Name**: Description.
+
 
 ---
 

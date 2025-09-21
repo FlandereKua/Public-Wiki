@@ -1,5 +1,5 @@
 ## Description
- A basic but reliable ranged bow attack
+ A basic but reliable ranged attack.
 
 ## Quick Info
 | Property | Value                               |

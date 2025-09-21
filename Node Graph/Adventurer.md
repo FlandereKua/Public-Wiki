@@ -1,11 +1,11 @@
 ## Description
- A run of the mill common adventurer
+ A run of the mill common adventurer.
 
 ## Quick Info
-| Property | Value       |
-| -------- | ----------- |
-| **Tier** | 1 #Common   |
-| **Type** | #Title      |
+| Property | Value            |
+| -------- | ---------------- |
+| **Tier** | 1 #Common        |
+| **Type** | #Title #Survival |
 
 ---
 

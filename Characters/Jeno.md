@@ -1,6 +1,6 @@
 # Character Stat Sheet
 
-![[Jeno.png]]
+![[Resources/Image/Character/Jeno.png]]
 
 ---
 
@@ -26,8 +26,8 @@
 - **Health Points (HP)**: `30 / 30`
 - **Resource (Mana/Stamina)**: `15 / 15`
 - **Armor Class (AC)**: `3` (+1)
-- **Movement (MV)**: `+0` (+1)
-- **Speed (SPD)**: `+0`
+- **Movement (MV)**: `+0` 
+- **Speed (SPD)**: `+0` (+1)
 
 ---
 

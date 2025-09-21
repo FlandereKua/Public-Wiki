@@ -2,10 +2,10 @@
  A legendary technique that splits the very air, growing stronger with each successive strike.
 
 ## Quick Info
-| Property | Value                        |
-| -------- | ---------------------------- |
-| **Tier** | 5 #Heroic                    |
-| **Type** | #Active #Physical #Slash     |
+| Property | Value                                 |
+| -------- | ------------------------------------- |
+| **Tier** | 5 #Heroic                             |
+| **Type** | #Active #Physical #Penetration #Slash |
 
 ---
 
