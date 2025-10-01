@@ -21,9 +21,9 @@
 - [[Life]]
 
 ### Acquisition Method(s)
-- [ ] **Combat:** 
+- [x] **Combat:** Using swords in 10 battles
 - [ ] **Research:** 
-- [ ] **Activities:** 
+- [x] **Activities:** Training under a Tier 2 Swordsman
 - [ ] **Dialogue & Exchange:** 
 - [ ] **Discovery:** 
 - [ ] **Other:** 

@@ -1,0 +1,11 @@
+{
+  "name": "node-based-adventure-tracker",
+  "version": "1.0.0",
+  "description": "Local TTRPG tracker for Node-Based Adventure characters.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "convert": "node scripts/convert-characters.js"
+  }
+}

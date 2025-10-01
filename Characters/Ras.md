@@ -34,7 +34,7 @@
 > [[Slash]]
 > [[Command Strike]] 
 ### Passive Nodes
-#### Tier 1 (5/10)
+#### Tier 1 (5/6)
 > [[Basic Footwork]]
 > [[Basic Leadership]]
 > [[Basic Cooking]]

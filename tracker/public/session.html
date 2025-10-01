@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Session Tracker - Node-Based Adventure</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="brand">
+        <h1>Session Tracker</h1>
+        <span id="session-breadcrumb" class="breadcrumb">No session loaded</span>
+      </div>
+      <div class="top-bar-actions">
+        <a href="index.html" class="ghost top-nav-btn">Menu</a>
+        <button id="open-menu-btn" class="secondary top-nav-btn">Session Menu</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="menu-placeholder" class="menu-placeholder">
+        <div class="menu-card">
+          <h2>Start or Load</h2>
+          <p class="menu-subtitle">Create or load a session.</p>
+          <div class="menu-buttons">
+            <button class="primary" data-menu-action="create">Create New Session</button>
+            <button class="secondary" data-menu-action="load">Load Session</button>
+            <button class="secondary" data-menu-action="settings">Settings</button>
+            <button class="ghost" data-menu-action="convert">Convert Sheets</button>
+          </div>
+          <p class="menu-note">Sessions track allies, enemies and turns.</p>
+        </div>
+      </section>
+
+      <section id="session-view" class="session-view hidden" aria-live="polite">
+        <div class="session-columns">
+          <aside class="tracker-column allies" aria-label="Allies">
+            <div class="column-header">
+              <h2>Allies</h2>
+              <span id="ally-count" class="count-chip">0</span>
+            </div>
+            <div id="ally-card-container" class="card-stack" data-role="ally"></div>
+          </aside>
+
+          <section class="turn-center" aria-label="Turn management">
+            <div class="turn-counter">
+              <div>
+                <span class="label">Session</span>
+                <span id="session-name-display" class="value">-</span>
+              </div>
+              <div>
+                <span class="label">Turn</span>
+                <span id="turn-number" class="value">1</span>
+              </div>
+            </div>
+
+            <div class="turn-order-panel">
+              <div class="panel-header">
+                <h3>Turn Order</h3>
+                <span id="pending-sort-indicator" class="tag hidden">Pending update</span>
+              </div>
+              <div id="turn-order-bar" class="turn-order-bar empty" role="list" aria-label="Turn order">
+                <p>No participants yet.</p>
+              </div>
+            </div>
+
+            <div class="session-controls">
+              <button id="load-sheet-btn" class="primary">Load Sheet</button>
+              <button id="end-turn-btn" class="accent">End Turn</button>
+            </div>
+          </section>
+
+          <aside class="tracker-column enemies" aria-label="Enemies">
+            <div class="column-header">
+              <h2>Enemies</h2>
+              <span id="enemy-count" class="count-chip">0</span>
+            </div>
+            <div id="enemy-card-container" class="card-stack" data-role="enemy"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Reuse existing overlays from original index -->
+  <div id="menu-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="menu-overlay-title">
+    <div class="overlay-card">
+      <div class="overlay-header">
+        <h2 id="menu-overlay-title">Overlay Menu</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <div class="overlay-body menu-overlay">
+        <button class="primary" data-menu-action="create">Create New Session</button>
+        <button class="secondary" data-menu-action="load">Load Session</button>
+        <button class="secondary" data-menu-action="settings">Settings</button>
+        <button class="ghost" data-menu-action="convert">Convert Sheets</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Create Session Modal -->
+  <div id="create-session-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="create-session-title">
+    <div class="overlay-card">
+      <div class="overlay-header">
+        <h2 id="create-session-title">Create New Session</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <form id="create-session-form" class="overlay-body" novalidate>
+        <label>
+          Session Name
+          <input type="text" id="create-session-name" name="sessionName" required maxlength="80" placeholder="e.g. Harken Town Ambush">
+        </label>
+        <p class="form-hint">Names are used to save and load your sessions later.</p>
+        <div class="overlay-actions">
+          <button type="submit" class="primary">Create Session</button>
+          <button type="button" class="ghost" data-close-overlay>Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Load Session Modal -->
+  <div id="load-session-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="load-session-title">
+    <div class="overlay-card">
+      <div class="overlay-header">
+        <h2 id="load-session-title">Load Session</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <div class="overlay-body">
+        <div id="saved-session-list" class="saved-session-list" aria-live="polite"></div>
+        <div class="overlay-divider">or</div>
+        <label class="file-button">
+          Import Session File
+          <input type="file" id="import-session-input" accept="application/json" hidden>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+    <div class="overlay-card">
+      <div class="overlay-header">
+        <h2 id="settings-title">Settings</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <div class="overlay-body settings-body">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span>Use light theme</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" id="compact-toggle">
+          <span>Compact trackers</span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sheet Picker Modal -->
+  <div id="sheet-picker-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="sheet-picker-title">
+    <div class="overlay-card large">
+      <div class="overlay-header">
+        <h2 id="sheet-picker-title">Load Sheets</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <div class="overlay-body sheet-picker">
+        <div class="sheet-search">
+          <input type="search" id="sheet-search-input" placeholder="Search by name, race, or tag">
+        </div>
+        <div class="sheet-columns">
+          <div class="sheet-column">
+            <h3>Characters</h3>
+            <div id="character-sheet-list" class="sheet-list" data-sheet-category="character"></div>
+          </div>
+          <div class="sheet-column">
+            <h3>Monsters</h3>
+            <div id="monster-sheet-list" class="sheet-list" data-sheet-category="monster"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sheet Detail Modal -->
+  <div id="sheet-detail-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="sheet-detail-title">
+    <div class="overlay-card large">
+      <div class="overlay-header">
+        <h2 id="sheet-detail-title">Sheet Detail</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <div class="overlay-body detail-body">
+        <pre id="sheet-detail-content"></pre>
+      </div>
+    </div>
+  </div>
+  <!-- Effect Editor Modal -->
+  <div id="effect-editor-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="effect-editor-title">
+    <div class="overlay-card">
+      <div class="overlay-header">
+        <h2 id="effect-editor-title">Add / Edit Effect</h2>
+        <button class="icon-btn" data-close-overlay>&times;</button>
+      </div>
+      <form id="effect-editor-form" class="overlay-body" novalidate>
+        <div class="form-row">
+          <label>Template
+            <select id="effect-template-select">
+              <option value="__custom">Custom...</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-row two-col">
+          <label>Name
+            <input type="text" id="effect-name-input" required maxlength="60" placeholder="e.g. Haste" />
+          </label>
+          <label>Turns
+            <input type="number" id="effect-turns-input" required min="1" value="2" />
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Targets (stat:delta per line)
+            <textarea id="effect-targets-input" rows="4" placeholder="SPD:+2\nMV:+0"></textarea>
+          </label>
+          <p class="form-hint">Examples: HP:-1, STR:+2, SPD:+3. Use +/- prefix for sign.</p>
+        </div>
+        <div class="overlay-actions">
+          <button type="submit" class="primary">Save Effect</button>
+          <button type="button" class="ghost" data-close-overlay>Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="toast" class="toast hidden" role="alert"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

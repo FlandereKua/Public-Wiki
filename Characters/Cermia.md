@@ -45,7 +45,7 @@
 >**[[Flame Slash]]**
 
 ### Passive Nodes
-#### Tier 1 (6/10)
+#### Tier 1 (6/6)
 >**[[Basic Swordsmanship]]**
 >**[[Magical Aptitude]]**
 >**[[Swift]]**
@@ -53,7 +53,7 @@
 >**[[Trained Knight]]**
 >**[[Fire Chaser]]**
 
-#### Tier 2 (2/10)
+#### Tier 2 (2/6)
 >**[[Red Dices]]**
 >**[[Swordsmanship]]**
 

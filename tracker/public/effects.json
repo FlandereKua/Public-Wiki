@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bleeding",
+    "label": "Bleeding",
+    "targets": [ { "stat": "HP", "delta": -1 } ],
+    "turns": 2
+  },
+  {
+    "id": "haste",
+    "label": "Haste",
+    "targets": [ { "stat": "SPD", "delta": 3 } ],
+    "turns": 3
+  },
+  {
+    "id": "arcane-might",
+    "label": "Arcane Might",
+    "targets": [ { "stat": "INT", "delta": 2 }, { "stat": "WIS", "delta": 1 } ],
+    "turns": 3
+  },
+  {
+    "id": "stone-skin",
+    "label": "Stone Skin",
+    "targets": [ { "stat": "AC", "delta": 2 } ],
+    "turns": 4
+  }
+]

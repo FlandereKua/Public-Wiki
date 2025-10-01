@@ -11,7 +11,7 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attribute Boost**: +1 STR
+    - **Strength Boost**: +1 STR
     - **Resource Boost**: +1 HP
 
 ---

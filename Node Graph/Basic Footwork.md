@@ -11,7 +11,7 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Combat Boost**: +1 DEX when in combat.
+    - **Dexterity Boost**: +1 DEX when in combat.
     - **Speed Boost**: +1 SPD.
 
 ---

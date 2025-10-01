@@ -1,4 +1,0 @@
-/Users/s3924462/Documents/wanderlust-vietnam-s3924462/wanderlust-vietnam-s3924462/Views/SettingsView.swift:23:14 'navigationBarTitleDisplayMode' is unavailable in macOS
-/Users/s3924462/Documents/wanderlust-vietnam-s3924462/wanderlust-vietnam-s3924462/Views/SettingsView.swift:25:41 'navigationBarTrailing' is unavailable in macOS
-/var/folders/xz/2023y0f92y786wy6l7h6hrpsqw808g/T/swift-generated-sources/@__swiftmacro_27wanderlust_vietnam_s392446219DestinationListViewV16userDestinations33_4E613C572F27526DE09D394608BACE76LL5QueryfMp_.swift:1:54 Cannot find type 'DestinationData' in scope
-In expansion of macro 'Query' on property 'userDestinations' here

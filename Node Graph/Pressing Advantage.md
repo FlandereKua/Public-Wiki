@@ -11,7 +11,7 @@
 
 ## Mechanics & Effects
 - **Effect Details:**
-    - **Attribute Boost**: +1 STR for 2 turn.
+    - **Strength Boost**: +1 STR for 2 turn.
     - **Movement**: Moves user forward 1 tile.
 
 ---
